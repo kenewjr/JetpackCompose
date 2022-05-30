@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JetpackCompose</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_input_layout">InputLayout</string>
+    <string name="title_activity_login_layout">LoginLayout</string>
+    <string name="title_activity_hitung_layout">HitungLayout</string>
+    <string name="title_activity_payment_layout">PaymentLayout</string>
+</resources>
