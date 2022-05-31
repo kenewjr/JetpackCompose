@@ -1,8 +1,14 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">JetpackCompose</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
     <string name="title_activity_input_layout">InputLayout</string>
     <string name="title_activity_login_layout">LoginLayout</string>
     <string name="title_activity_hitung_layout">HitungLayout</string>
     <string name="title_activity_payment_layout">PaymentLayout</string>
+    <string name="title_activity_column_row_box_layout">ColumnRowBoxLayout</string>
+    <string name="title_activity_scroll_view_layout">ScrollViewLayout</string>
+    <string name="desc">Corrupt politicians, frenzied nationalists, and other warmongering forces constantly jeopardize the thin veneer of peace between neighboring countries Ostania and Westalis.</string>
+    <string name="title_activity_card_view_layout">CardViewLayout</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_recycler_view_layout">RecyclerViewLayout</string>
 </resources>

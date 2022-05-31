@@ -14,6 +14,37 @@
         android:theme="@style/Theme.JetpackCompose"
         tools:targetApi="31">
         <activity
+            android:name=".RecyclerViewLayout"
+            android:exported="false"
+            android:label="@string/title_activity_recycler_view_layout"
+            android:theme="@style/Theme.JetpackCompose" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.JetpackCompose">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CardViewLayout"
+            android:exported="false"
+            android:label="@string/title_activity_card_view_layout"
+            android:theme="@style/Theme.JetpackCompose" />
+        <activity
+            android:name=".ScrollViewLayout"
+            android:exported="false"
+            android:label="@string/title_activity_scroll_view_layout"
+            android:theme="@style/Theme.JetpackCompose" />
+        <activity
+            android:name=".ColumnRowBoxLayout"
+            android:exported="false"
+            android:label="@string/title_activity_column_row_box_layout"
+            android:theme="@style/Theme.JetpackCompose" />
+        <activity
             android:name=".PaymentLayout"
             android:exported="false"
             android:label="@string/title_activity_payment_layout"
@@ -28,11 +59,7 @@
             android:exported="true"
             android:label="@string/title_activity_login_layout"
             android:theme="@style/Theme.JetpackCompose">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".InputLayout"

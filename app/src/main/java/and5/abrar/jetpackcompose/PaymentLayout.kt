@@ -45,7 +45,7 @@ fun Greeting6(name: String) {
     }
 }
 
-@Preview(showBackground = true)
+@Preview(showBackground = true,showSystemUi = true)
 @Composable
 fun DefaultPreview6() {
     JetpackComposeTheme {
